@@ -1,4 +1,4 @@
-import Java.util.Random;
+import java.util.Random;
 import java.nio.charset.Charset;
 
 class Calculator {
