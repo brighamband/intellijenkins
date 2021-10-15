@@ -66,7 +66,7 @@ class Calculator {
     if you run this function twice with the same String input, it must return 2 unique String IDs
      */
     String createUniqueID(String n){
-        return n + RandomStringUtils.randomAlphabetic(10);
+        return n + RandomStringGenerator.randomAlphanumeric(17);
     }
 
 
